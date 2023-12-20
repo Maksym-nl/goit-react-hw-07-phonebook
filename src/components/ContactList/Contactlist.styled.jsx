@@ -9,7 +9,7 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-  width: calc(100% / 3);
+  /* width: calc(100% / 3); */
   border: 1px solid;
   color: black;
   display: grid;
@@ -17,6 +17,8 @@ export const ListItem = styled.li`
   padding: 15px;
   border-radius: ${props => props.theme.radii.lg};
   background: aliceblue;
+b
+
   /* :hover {
     background-color: green; */
   }

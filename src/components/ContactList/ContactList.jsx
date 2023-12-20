@@ -8,10 +8,11 @@ import {
 import { ImCross } from 'react-icons/im';
 import { useSelector, useDispatch } from 'react-redux';
 import { getFilterContacts } from '../../redux/selectors';
-import { deleteContact } from '../../redux/contactsSlice';
+import { deleteContact } from '../../redux/operations';
 
 export function ContactList() {
   const contacts = useSelector(getFilterContacts);
+  console.log(contacts);
   const dispatch = useDispatch();
   return (
     <List>
